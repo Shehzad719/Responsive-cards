@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+.background-custom-last{
+    background-image: url(https://www.capitalnumbers.com/images/webp/common/tl-pt.webp);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    /* background-color: #075091; */
+    flex-wrap: nowrap;
+    
+
+}
+
+.three-container{
+    /* background-color: #4a90e2; */
+    width: 30%;
+    height: auto;
+    margin: 0px auto;
+    flex-wrap: nowrap;
+    /* align-items: center;
+    align-content: center; */
+    text-align: center;
+}
+
+.reviews-custom{
+    color: black;
+    font-weight: 800;
+}
+
+.reviews-paragraph{
+    color: black;
+    font-weight: 400;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+/* here is 6 cards works here/// */
+
+/* cards work here/// */
+
+.card-group{
+
+    width: 70%;
+    height: 300px;
+    margin: 0px auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+    
+    
+
+}
+
+.card-body-first{
+    width: 100%;
+    height: 300px;
+}
+
+.card-title{
+    word-spacing: 2px;
+    font-weight: 500;
+    color: black;
+    padding: 60px 0px 0px 20px;
+    
+
+}
+
+.card{
+    border-radius: 10px 10px 10px 10px;
+    border: 2px solid black;
+}
+
+
+
+  /* six cards media quiries here/// */
+@media screen and (max-width: 600px) {
+    .card-group,.card,.card-body {
+      /* background-color: #3cc065; */
+      display: inline;
+      width: 90%;
+      height: auto;
+      top: 30px;
+      
+      margin: 50px auto;
+      
+    }
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .card-body {
+      /* background-color: #3cc065;  */
+      /* display: inline;
+      width: 90%;
+      height: auto;
+      
+      margin: 0px auto; */
+      /* margin-bottom: 20px; */
+      
+    }
+  }
+
+
+.index-work{
+    position: absolute;
+    z-index: 1; 
+    /* background: lightgreen; */
+    width: 35%;
+    right: 120px;
+    top: -30px;
+    height: 100px;
+
+}
+
+.arrow-index{
+    position: absolute;
+    z-index: 1; 
+    /* background: lightgreen; */
+    width: 35%;
+    left: 200px;
+    bottom: -85px;
+    height: 100px;
+
+}
+
+/* .arrow-index{
+    float: right;
+    overflow: auto;
+    margin: auto 0px auto auto;
+    
+    
+} */
+
+
+.card-title-custom{
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.card-text{
+
+    color: dodgerblue;
+    font-weight: 350;
+    font-size: 24px;
+    padding: 15px 0px 0px 20px;
+}
+
+/* here is media quiries of reviews paragraph/// */
+
+@media screen and (max-width: 600px) {
+    .reviews-paragraph {
+      font-size: 14px;
+      text-align: center;
+      padding-bottom: 10px;
+
+       /* The structure will be inline block. */
+    }
+  }
